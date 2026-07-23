@@ -12,6 +12,7 @@ const addressRouter = require("./Routes/addressRouter.js");
 const orderRouter = require("./Routes/orderRouter.js");
 
 dotenv.config();
+// console.log(process.env.MONGODB_URI);
 
 const router = express.Router();
 const app = express();
@@ -56,7 +57,7 @@ app.use("/api/cart", cartRouter);
 app.use("/api/address", addressRouter);
 app.use("/api/order", orderRouter);
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 connectDB()
   .then(() => {
     app.listen(PORT, () => {
