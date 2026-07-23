@@ -24,7 +24,7 @@ function ProductCard({ product, index }) {
       key={index}>
       <div className="border-b border-gray-300">
         <img
-          src={`http://localhost:5000/uploads/${product.image}`}
+          src={`https://freshmart-mern-ecommerce-production.up.railway.app/uploads/${product.image}`}
           alt={product.name}
           className="object-cover w-full h-45 rounded-t-xl"
         />
