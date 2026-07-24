@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import UserLayout from "./layout/Userlayout";
+import UserLayout from "./layout/UserLayout";
 import AdminLayout from "./layout/AdminLayout";
 
 import Home from "./Pages/Home";
@@ -40,7 +40,7 @@ const App = () => {
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/order-success/:id" element={<OrderSuccess />} />
         </Route>
-        ================= ADMIN LAYOUT =================
+        {/* ================= ADMIN LAYOUT ================= */}
         <Route
           path="/admin"
           element={
