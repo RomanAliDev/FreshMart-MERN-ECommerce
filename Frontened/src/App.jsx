@@ -11,9 +11,9 @@ import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
 import Shop from "./Pages/Shop";
 import Cart from "./Components/Cart";
-import AddProduct from "./admin/addproduct";
+import AddProduct from "./admin/AddProduct";
 import EditProduct from "./admin/EditProduct";
-import ProductList from "./admin/productlist";
+import ProductList from "./admin/Productlist";
 import OrderSuccess from "./Pages/OrderSuccess";
 import AdminRoute from "./routes/AdminRoute";
 
