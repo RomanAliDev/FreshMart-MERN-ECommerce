@@ -113,7 +113,7 @@ function Cart() {
                   key={item._id}
                   className="bg-white rounded-xl shadow p-4 flex gap-4 items-center">
                   <img
-                    src={`https://freshmart-mern-ecommerce-production.up.railway.app/uploads/${product.image}`}
+                    src={`https://freshmart-mern-ecommerce-production.up.railway.app/uploads/${item.productId.image}`}
                     alt={item.productId.title}
                     className="w-24 h-24 object-cover rounded-lg border"
                   />
